@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+.fondo {
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  background-color: #37094e21;
+  background-blend-mode: multiply; }
+
+.fade {
+  animation-name: increment;
+  animation-duration: 3s; }
+
+h1 {
+  color: #4a285e;
+  font-size: xxx-large;
+  text-align: center; }
+
+h2 {
+  color: #9e4acf;
+  text-align: center;
+  font-size: 3rem; }
+
+h3 {
+  color: #000000;
+  text-align: center;
+  font-size: 3rem; }
+
+.seccion {
+  animation-name: increment;
+  animation-duration: 3s; }
+  .seccion article p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    width: 90%; }
+
+.art {
+  display: flex;
+  justify-content: center;
+  gap: 3em; }
+  .art img {
+    width: 30%;
+    filter: drop-shadow(0px 3px 2px #300262); }
+
+.navegacion nav {
+  display: inline-flex;
+  background-color: linear-gradient(to bottom, rgba(168, 102, 243, 0.2), rgba(168, 102, 243, 0.9));
+  /*rgb(168 102 243 / 90%); */
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  position: sticky;
+  width: 100%;
+  animation-name: FadeIn;
+  animation-duration: 6s; }
+  .navegacion nav a {
+    text-decoration: none;
+    justify-content: end;
+    animation-name: FadeIn;
+    animation-duration: 6s; }
+    .navegacion nav a img {
+      width: 80px;
+      height: 100px;
+      filter: drop-shadow(0px 3px 4px black);
+      animation-name: FadeIn;
+      animation-duration: 6s; }
+  .navegacion nav ul {
+    display: flex;
+    gap: 1em;
+    flex-direction: row-reverse;
+    padding-right: 10px;
+    animation-name: FadeIn;
+    animation-duration: 6s; }
+    .navegacion nav ul li {
+      display: inline-block;
+      animation-name: FadeIn;
+      animation-duration: 6s; }
+      .navegacion nav ul li a {
+        font-size: 1rem;
+        text-decoration: none;
+        color: #a5efefc9;
+        font-weight: 700;
+        transition: color 0.5s, text-shadow 0.4s;
+        text-shadow: 1px 1px 1px black;
+        animation-name: FadeIn;
+        animation-duration: 6s; }
+      .navegacion nav ul li a:hover {
+        color: #0b009f;
+        font-weight: 800;
+        text-shadow: 1px 1px 5px #f5f5f5f7; }
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  color: black; }
+  .footer a {
+    display: inline-flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-self: center;
+    text-align: center; }

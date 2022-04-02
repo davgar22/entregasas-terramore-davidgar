@@ -1,0 +1,31 @@
+*{
+        padding: 0;
+        margin:0;
+
+}
+.fondo{
+    background-image: url(../img/fondo.jpg);
+	background-attachment: fixed;
+	background-color: #37094e21;
+    background-blend-mode: multiply;
+}
+.fade{
+    animation-name: increment; 
+    animation-duration: 3s
+}
+$colfoot:rgba(0,0,0,0.7);
+$coltfottext:rgb(0,0,0);
+
+$disinlineflex:inline-flex;
+$disflex:flex;
+
+$marten:10px;
+$martwe:20px;
+$marthi:30px;
+$marfor:40px;
+
+$padten:10px;
+$padtwe:20px;
+$padfif:15px;
+$padtwefif:25;
+
